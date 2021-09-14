@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-image {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photographer.jpg); */
+    background-image: url(../img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 450px;
+}
+
+.hero-content {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 56px;
+    color: #5A3506;
+    background: rgba(218, 138, 27, 0.85);
+    padding: 40px;
+    margin-top: 120px;
+}
+
+#about {
+    color: #845100;
+}
+
+#speakers {
+    background: #E7E2D9;
+}
+
+#speakers h2 {
+    color: #845100;
+}
+
+.speaker {
+    font-weight: bold;
+    font-size: 20px;
+    color: #955B00;
+}
+
+.university {
+    font-weight: 500;
+    font-size: 20px;
+    color: #666666;
+}
+
+.country {
+    font-size: 20px;
+    color: #666666;
+}
+
+#schedule {
+    background: #605542;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.schedule h2 {
+    margin-top: 10px;
+    color: #FDDCA8;
+}
+
+.schedule h3 {
+    margin-top: .75rem;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+}
+
+.abstract {
+    color: #5b7bb6;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.schedule p {
+    color: #FDDCA8;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.schedule .university {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #D0C8BB;
+}
+
+.schedule .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #845100;
+    font-weight: bold;
+    background: #D0C8BB;
+    border-color: #D0C8BB;
+    font-size: 1.2rem;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #616161;
+}
+
+.schedule .table td, .table th {
+    border-top: 1px solid #D0C8BB;
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.schedule a {
+    color: #A8A8A8;
+}
+
+hr {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    border: 0;
+    border-top: 1px solid #545454;
+}
+
+.time {
+    margin-top: .75rem;
+}
+
+#organizers {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#organizers h2 {
+    color: #845100;
+}
+
+.banner-image {
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 300px;
+}
+
+#footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logo {
+    max-height: 70px;
+}

@@ -148,3 +148,12 @@ hr {
 .logo {
     max-height: 70px;
 }
+
+.alert-registry {
+    color: #fddca8;
+    background: #845100;
+}
+
+.alert-registry a {
+    color: #FFFFFF;
+}

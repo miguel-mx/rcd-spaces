@@ -157,3 +157,17 @@ hr {
 .alert-registry a {
     color: #FFFFFF;
 }
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-body {
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: #6f6047;
+}
+
+.table th {
+    width: 20%!important;
+}

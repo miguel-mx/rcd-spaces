@@ -172,3 +172,50 @@ hr {
     width: 20%!important;
 }
 
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 414px) {
+
+    .hero-image {
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photographer.jpg); */
+        background-image: url(../img/banner-s.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        min-height: 670px;
+    }
+
+    .hero-content {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 56px;
+        color: #5A3506;
+        background: rgba(218, 138, 27, 0.85);
+        padding: 40px;
+        margin-top: 120px;
+    }
+
+    .banner-image {
+        background-image: url(../img/banner2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        min-height: 130px;
+    }
+
+    .schedule .table td, .table th {
+        border-top: 1px solid #D0C8BB;
+        font-size: 1rem;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .schedule h3 {
+        margin-top: .75rem;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 1px;
+    }
+}
